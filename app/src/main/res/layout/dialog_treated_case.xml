@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symptoms_label"
+            android:textColor="@color/text_gray"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTreatedDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/treated_desc_hint"
+            android:importantForAutofill="no"
+            android:inputType="textCapSentences"
+            android:minHeight="48dp"
+            android:textSize="16sp" />
+
+        <!-- Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/treated_date_hint"
+            android:textColor="@color/text_gray"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTreatedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@android:drawable/ic_menu_today"
+            android:focusable="false"
+            android:hint="@string/treated_date_hint"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:textSize="16sp" />
+
+        <!-- Procedures -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/steps_label"
+            android:textColor="@color/text_gray"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTreatedProcedures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|start"
+            android:hint="@string/treated_proc_hint"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:textSize="16sp" />
+
+        <!-- Photo Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/select_photo"
+            android:textColor="@color/text_gray"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageTreatedPreview"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/select_photo"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonPickPhoto"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/select_photo"
+                android:textColor="@color/red_primary" />
+
+            <Button
+                android:id="@+id/buttonRemovePhoto"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/remove_photo"
+                android:textColor="@color/red_primary"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

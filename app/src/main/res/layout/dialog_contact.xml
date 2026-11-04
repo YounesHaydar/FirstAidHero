@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="8dp">
+
+    <EditText
+        android:id="@+id/editContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact_name_hint"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName|textCapWords"
+        android:maxLength="40"
+        android:minHeight="48dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editContactPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/contact_phone_hint"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:maxLength="16"
+        android:minHeight="48dp"
+        android:textSize="20sp" />
+
+</LinearLayout>

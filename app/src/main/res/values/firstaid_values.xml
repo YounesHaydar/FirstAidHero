@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colors: red/gray theme -->
+    <color name="red_primary">#C62828</color>
+    <color name="gray_bg">#F5F5F5</color>
+    <color name="text_gray">#616161</color>
+    <color name="card_stroke">#E0E0E0</color>
+
+    <!-- Danger levels -->
+    <color name="danger_critical">#C62828</color>
+    <color name="danger_medium">#EF6C00</color>
+    <color name="danger_minor">#2E7D32</color>
+
+    <!-- Dashboard strings -->
+    <string name="dashboard_title">FirstAid Hero</string>
+    <string name="search_hint">Search a case or symptom…</string>
+    <string name="no_results">No cases found</string>
+
+    <string name="symptoms_label">Symptoms</string>
+    <string name="steps_label">Steps</string>
+    <string name="call_button">Call emergency contact</string>
+    <string name="no_steps">No steps available for this case</string>
+    <string name="no_contact">No emergency contact saved</string>
+    <string name="no_dialer">No phone app found on this device</string>
+    <string name="case_not_found">Case not found</string>
+
+    <string name="contacts_title">Emergency contacts</string>
+    <string name="add_contact">Add contact</string>
+    <string name="edit_contact">Edit contact</string>
+    <string name="delete_contact">Delete contact</string>
+    <string name="contact_name_hint">Name</string>
+    <string name="contact_phone_hint">Phone number</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="delete_confirm">Delete %1$s?</string>
+    <string name="no_contacts">No contacts yet</string>
+    <string name="error_name_required">Enter a name</string>
+    <string name="error_phone_invalid">Enter a valid phone number (3 to 15 digits)</string>
+    <string name="save_failed">Could not complete the action</string>
+    <string name="choose_contact">Who do you want to call?</string>
+
+    <!-- Navigation strings -->
+    <string name="nav_cases">Cases</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_treated">Treated</string>
+    <string name="nav_stats">Statistics</string>
+
+    <!-- Treated Cases strings -->
+    <string name="treated_title">Treated cases</string>
+    <string name="add_treated_case">Record treated case</string>
+    <string name="search_treated_hint">Search description or procedures…</string>
+    <string name="no_treated_cases">No treated cases recorded yet</string>
+    <string name="treated_desc_hint">Description (e.g. Minor burn on hand)</string>
+    <string name="treated_date_hint">Select date</string>
+    <string name="treated_proc_hint">Procedures applied (e.g. Cleaned wound, applied bandage)</string>
+    <string name="select_photo">Attach Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="sort_newest">Newest</string>
+    <string name="sort_oldest">Oldest</string>
+    <string name="error_desc_required">Enter a description</string>
+    <string name="error_date_required">Select a date</string>
+    <string name="error_proc_required">Enter procedures applied</string>
+    <string name="delete_treated_confirm">Delete this treated case record?</string>
+
+    <!-- Statistics strings -->
+    <string name="stats_title">Statistics</string>
+    <string name="total_cases_label">Total Emergency Cases</string>
+    <string name="treated_cases_label">Treated Cases Logged</string>
+    <string name="breakdown_title">Cases by Danger Level</string>
+    <string name="critical_label">Critical Level</string>
+    <string name="medium_label">Medium Level</string>
+    <string name="minor_label">Minor Level</string>
+</resources>
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/bg_card"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Red circle with the step number -->
+    <TextView
+        android:id="@+id/textStepNumber"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_step_number"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textInstruction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+</LinearLayout>
